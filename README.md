@@ -26,3 +26,7 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 *calc_exposure4_improved.py* is the programm to **calculate** the exposure of the agents.  <br>
 *calc_exposure4_improved_plot.py* is the programm to **plot** the exposure of the agents.  <br>
 *model_functions4_improved.py* contains the **functions** used in the programs. <br>
+
+## Authors
+Original model by [Meng Lu](https://github.com/mengluchu/agentmodel).
+Improved with flexible schedules to add bus travel and grocery shopping by [Jan Hopfer](https://github.com/J-Hopf).
