@@ -28,5 +28,5 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 *model_functions4_improved.py* contains the **functions** used in the programs. <br>
 
 ## Authors
-Original model by [Meng Lu](https://github.com/mengluchu/agentmodel).
+Original model by [Meng Lu](https://github.com/mengluchu/agentmodel). <br>
 Improved with flexible schedules to add bus travel and grocery shopping by [Jan Hopfer](https://github.com/J-Hopf).
