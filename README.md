@@ -1,15 +1,15 @@
-## ABM-Thesis
+# ABM-Thesis
 Improving activity schedules of an agent-based model with bus travel and grocery shopping using Python
 
 This study aims to improve agent-based models (ABMs) which quantify diurnal NO2 exposure based on daily activity schedules with the integration of bus travel and grocery shopping trips. The goal is a better understanding of the consequences of long-term exposure on the public health.
 
-# Input data files
+## Input data files
 The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yHT8ai
 *input* is the folder for all input data files.
 *results1* is the standard folder to save the results.
 *r1_improved* inside *results1* is an exemplary folder name to save the results of an individul simulation run.
 
-# Python files
+## Python files
 *streamline_osmnx_4_improved.py* is the programm to **simulate** the activity schedules of the agents.
 *calc_exposure4_improved.py* is the programm to **calculate** the exposure of the agents. 
 *calc_exposure4_improved_plot.py* is the programm to **plot** the exposure of the agents. 
