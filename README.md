@@ -1,7 +1,7 @@
 # ABM-Thesis
 Improving activity schedules of an agent-based model with bus travel and grocery shopping using Python
 
-This study aims to improve agent-based models (ABMs) which quantify diurnal NO2 exposure based on daily activity schedules with the integration of bus travel and grocery shopping trips. The goal is a better understanding of the consequences of long-term exposure on the public health.
+Code for a study that aims to improve an agent-based model (ABM) which quantifys diurnal NO2 exposure based on daily activity schedules with the integration of bus travel and grocery shopping trips. The goal is a better understanding of the consequences of long-term exposure on the public health.
 
 ## Input data files
 The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yHT8ai
