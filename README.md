@@ -12,7 +12,7 @@ Code for a study that aims to improve an agent-based model (ABM) which quantifys
 6. Run *calc_exposure4_improved.py* -> output: exposure data
 7. Check folder names in *calc_exposure4_improved_plot.py*
 8. Specify which agents of which iteration to plot
-9. Run *calc_exposure4_improved_plot.py* -> output: exemplary plot for two agents
+9. Run *calc_exposure4_improved_plot.py* -> output: exemplary plot for two agents of an iteration
 
 ## Input data files
 The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yHT8ai <br>
