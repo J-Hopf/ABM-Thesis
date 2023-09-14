@@ -52,8 +52,7 @@ Gd = ox.io.load_graphml(filepath=f'{filedir}input/osmnx_graph/ut10drive.graphml'
 Ovin = pd.read_csv(f'{filedir}input/Ovin_mini.csv', usecols=["MaatsPart", "Doel", "age_lb", "KAf_mean"])  # Ovin_mini is Ovin with just the columns used in the module
 
 # travel probability for university students
-# _new.csv has the same probabilities like travelmean_from_distance2work for NL_student
-# otherwise a person could have walked 30 km to work which seems unlikely
+# _new.csv has the same probabilities like travelmean_from_distance2work for NL_student without error
 f_d_wo = pd.read_csv(f"{filedir}input/distprob/Uni_stu_uni_new.csv")
 # general travel probability for university students going also by bus
 f_d_bus = pd.read_csv(f"{filedir}input/distprob/Uni_stu_uni_bus2.csv")
