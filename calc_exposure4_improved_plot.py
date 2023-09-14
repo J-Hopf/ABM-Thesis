@@ -16,7 +16,7 @@ import osmnx as ox
 os.chdir("core")
 
 filedir = "C:/Users/Jan/PycharmProjects/Thesis2/"
-results_dir = f"{filedir}results3/r3_improved/"  # Use same folder as streamline_osmnx and calc_exposure4_improved
+results_dir = f"{filedir}results1/r1_improved/"  # Use same folder as streamline_osmnx and calc_exposure4_improved
 savedir = f"{results_dir}Uni/"
 
 # Function for plotting activity exposure
