@@ -10,10 +10,12 @@ Code for a study that aims to improve an agent-based model (ABM) which quantifys
 4. Specify number of iterations
 5. Run *streamline_osmnx_4_improved.py* -> output: activity schedules
 6. Check folder names in *calc_exposure4_improved.py*
-7. Run *calc_exposure4_improved.py* -> output: exposure data
-8. Check folder names in *calc_exposure4_improved_plot.py*
-9. Specify which agents of which iteration to plot
-10. Run *calc_exposure4_improved_plot.py* -> output: exemplary plot for two agents of an iteration
+7. Run *calc_exposure4_improved.py* -> output: exposure data + two plots
+
+To get more plots for specific agents:
+9. Check folder names in *calc_exposure4_improved_plot.py*
+10. Specify which agents of which iteration to plot
+11. Run *calc_exposure4_improved_plot.py* -> output: exemplary plot for two agents of an iteration
 
 ## Input data files
 The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yHT8ai <br>
