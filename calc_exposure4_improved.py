@@ -17,7 +17,7 @@ from shapely.geometry import Point
 from rasterstats import zonal_stats, point_query
 import pyproj
 from shapely.ops import transform
-import model_functions3_3_shop as m
+import model_functions4_improved as m
 import rasterio
 from matplotlib import pyplot as plt
 from rasterio.plot import show_hist
