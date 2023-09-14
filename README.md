@@ -26,9 +26,9 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 *r1_improved* inside *results1* is an exemplary folder name to save the results of an individul simulation run. <br>
 
 ## Python files
-*streamline_osmnx_4_improved.py* is the programm to **simulate** the activity schedules of the agents. <br>
-*calc_exposure4_improved.py* is the programm to **calculate** the exposure of the agents.  <br>
-*calc_exposure4_improved_plot.py* is the programm to **plot** the exposure of the agents.  <br>
+*streamline_osmnx_4_improved.py* is the program to **simulate** the activity schedules of the agents. <br>
+*calc_exposure4_improved.py* is the program to **calculate** the exposure of the agents.  <br>
+*calc_exposure4_improved_plot.py* is the program to **plot** the exposure of the agents.  <br>
 *model_functions4_improved.py* contains the **functions** used in the programs. <br>
 
 ## Authors
