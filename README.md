@@ -4,6 +4,7 @@ Improving activity schedules of an agent-based model with bus travel and grocery
 Code for a study that aims to improve an agent-based model (ABM) which quantifys diurnal NO2 exposure based on daily activity schedules with the integration of bus travel and grocery shopping trips. The goal is a better understanding of the impact of daily activities on long-term exposure. 
 
 ## How to use it
+To calculate exposure of agents:
 1. Download files and input data
 2. Open programs with an IDE of your choice
 3. Check folder names in *streamline_osmnx_4_improved.py*
