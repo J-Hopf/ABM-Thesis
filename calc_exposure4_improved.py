@@ -53,22 +53,7 @@ def wgs2laea(p):
     project = pyproj.Transformer.from_crs("EPSG:4326", rd, always_xy=True)
     p = transform(project.transform, p)
     return p
-
-
-def plot_raster():
-    fig, axs = plt.subplots(nrows=4, ncols=6, figsize=(55, 15))
-
-    for i, ax in enumerate(axs.flat):
-        src = rasterio.open(f"{preddir}{name_conrast}{i}.tif")
-
-        ax.set_axis_off()
-        a = ax.imshow(src.read(1), cmap='pink')
-        ax.set_title(f' {i:02d}:00')
-
-    cbar = fig.colorbar(a, ax=axs.ravel().tolist())
-    cbar.set_label(r'$NO_2$', rotation=270)
-    plt.show()
-
+    
 
 def gethw(df):
     ph = Point(float(df.home_lon), float(df.home_lat))  # home location
