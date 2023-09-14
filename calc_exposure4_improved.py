@@ -41,12 +41,8 @@ preddir = f"{filedir}input/hr_pred/"
 # name of the concentration raster .tifs (otherwise it has to be changed in a lot of functions)
 name_conrast = "hr_pred_utrecht_X"
 
-# # OSM input data
 # Bus stops
-OSMstops = pd.read_csv(f"{filedir}input/OSM/bus4_highway.csv")  # Open csv with coordinates of bus stops
-geom_bus = gpd.GeoSeries.from_wkt(OSMstops['geometry'])  # Get geometry from csv
-busstops = gpd.GeoDataFrame(OSMstops, geometry=geom_bus, crs="EPSG:4326")  # Make GeoDataFrame
-u_busstops = busstops.unary_union  # Get MultiPoint shape from GeoDataFrame
+u_busstops = m.input_bus_stops(f"{filedir}input/OSM/bus4_highway.csv")
 
 def wgs2laea(p):
     rd = pyproj.CRS('+proj=laea +lat_0=51 +lon_0=9.5 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs')
