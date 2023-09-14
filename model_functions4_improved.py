@@ -375,8 +375,6 @@ def getstartend(id, df):
     ycoord_home = float(df.loc[id, "home_lat"])
     xcoord_work = float(df.loc[id, "work_lon"])
     ycoord_work = float(df.loc[id, "work_lat"])
-    # Changing y and x here makes getroute() a lot easier! # Done!
-    # Or make it to Point(xcoord, ycoord) ?? # Done!
     start = Point(xcoord_home, ycoord_home)  # before: (ycoord_home, xcoord_home)
     end = Point(xcoord_work, ycoord_work)  # before: (ycoord_work, xcoord_work)
     return start, end
