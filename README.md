@@ -27,8 +27,8 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 
 ## Python files
 *streamline_osmnx_4_improved.py* is the program to **simulate** the activity schedules of the agents. <br>
-*calc_exposure4_improved.py* is the program to **calculate** the exposure of the agents.  <br>
-*calc_exposure4_improved_plot.py* is the program to **plot** the exposure of the agents.  <br>
+*calc_exposure4_improved.py* is the program to **calculate** and **plot** the exposure of the agents.  <br>
+*calc_exposure4_improved_plot.py* contains the plotting functions of calc_exposure4_improved.py to **plot** the exposure of specific agents.  <br>
 *model_functions4_improved.py* contains the **functions** used in the programs. <br>
 
 ## Authors
