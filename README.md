@@ -16,7 +16,7 @@ To calculate exposure of agents:
 To plot exposure of specific agents:
 1. Check folder names in *calc_exposure4_improved_plot.py*
 2. Specify which agents of which iteration to plot
-3. Run *calc_exposure4_improved_plot.py* -> output: plot for two agents of an iteration
+3. Run *calc_exposure4_improved_plot.py* -> output: plot for several agents of an iteration
 
 ## Input data files
 The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yHT8ai <br>
