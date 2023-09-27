@@ -54,32 +54,6 @@ def plotact2(rows, cols, act, savename="1", select_start=1, save=False):
     if save:
         fig.savefig(f'{savedir}{savename}.png')
 
-# Function for plotting average exposure map of home locations
-def plot_exposure_map(savedir1, ite, save_gpkg=False):
-    ODdir = savedir1 + "genloc/"
-    ODfile = f'h2w_{iteration}.csv'
-    homework = gpd.read_file(ODdir + ODfile)
-
-    lat = np.array(homework.home_lat).astype(float)
-    lon = np.array(homework.home_lon).astype(float)
-
-    person = pd.read_csv(f"{savedir1}exposure/iter_{ite}_person.csv").iloc[:, 1]
-
-    df2 = pd.DataFrame({"personal_exposure": person, "lat": lat, "lon": lon})
-    exp_gdf = gpd.GeoDataFrame(df2["personal_exposure"], crs=4326, geometry=[Point(xy) for xy in zip(df2.lon, df2.lat)])
-
-    if save_gpkg:
-        exp_gdf.to_file(f'{savedir1}person_iter{ite}.gpkg')
-
-    # visualise
-    fig, ax = plt.subplots()
-    ax.set_aspect('equal')
-    utrecht = ox.geocode_to_gdf('Utrecht')
-    utrecht.plot(ax=ax, color="gray", alpha=0.5)
-    ax.set_ylabel("Latitude")
-    ax.set_xlabel("Longitude")
-    exp_gdf.plot(ax=ax, column='personal_exposure', legend=True)
-
 
 # Specify which agents are plotted
 iteration = 31
@@ -90,9 +64,6 @@ act = pd.read_csv(f"{savedir}exposure/iter_{iteration}_act.csv")  # Because ever
 
 # Plot activity exposure
 plotact2(rows=2, cols=1, act=act, savename="more", select_start=start_number, save=False)
-
-# Plot average exposure map of home locations
-plot_exposure_map(savedir, ite=iteration)
 
 plt.show()
 plt.close('all')
