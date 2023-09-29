@@ -309,7 +309,7 @@ def plotact2(sub1, sub2, act, savename="1", select_start=1, save=False):
         axs[i1].set_xticks(xlabels)
         axs[i1].set_xticklabels(xlabels)
         axs[i1].set_xlabel('hour')
-        axs[i1].set_ylabel("Exposure: NO2 in µg/m3", fontsize=10)
+        axs[i1].set_ylabel("NO₂ in µg/m³", fontsize=10)
         # axs[i1].legend(loc="upper right")
     fig.tight_layout()
     # plt.xlim((14.5, 18.0))
@@ -365,6 +365,14 @@ files = glob.glob(f"{savedir}exposure/*person*")
 df_from_each_file = (pd.read_csv(f, sep=",").iloc[:, 1] for f in files)
 df_merged = pd.concat(df_from_each_file, ignore_index=True, axis=1)
 df_merged.columns = [str(x) for x in range(rangestart, rangeend)]
+
+ODdir = savedir + "genloc/"
+ODfile = f'h2w_{iteration}.csv'
+homework = gpd.read_file(ODdir + ODfile)
+
+lat = np.array(homework.home_lat).astype(float)
+lon = np.array(homework.home_lon).astype(float)
+
 df_merged["lat"] = lat
 df_merged["lon"] = lon
 
