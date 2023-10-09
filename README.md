@@ -32,7 +32,13 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 *model_functions4_improved.py* contains the **functions** used in the programs. <br>
 
 ## Added Python functions
-plotact2.py 
+*calc_exposure4_improved.py* and *calc_exposure4_improved_plot.py* <br>
+`plotact2.py` Plots the line graphs of the agents diurnal exposure. <br>
+*model_functions4_improved.py* <br>
+`input_bus_stops` Imports bus stops from a CSV file into a usable DataFrame format. <br>
+`input_shops` Imports grocery shops from a CSV file into a usable DataFrame format. <br>
+`get_busstops` Gets closest bus stops to the home and destination location. <br>
+
 
 ## Authors
 Original model by [Meng Lu](https://github.com/mengluchu/agentmodel). <br>
