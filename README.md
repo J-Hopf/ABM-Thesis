@@ -32,12 +32,26 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 *model_functions4_improved.py* contains the **functions** used in the programs. <br>
 
 ## Added Python functions
-*calc_exposure4_improved.py* and *calc_exposure4_improved_plot.py* <br>
-`plotact2.py` Plots the line graphs of the agents diurnal exposure. <br>
 *model_functions4_improved.py* <br>
 `input_bus_stops` Imports bus stops from a CSV file into a usable DataFrame format. <br>
 `input_shops` Imports grocery shops from a CSV file into a usable DataFrame format. <br>
 `get_busstops` Gets closest bus stops to the home and destination location. <br>
+
+## Adapted Python functions
+*streamline_osmnx_4_improved.py* <br>
+`generate_activity_all` Chooses and generates activity schedules. <br>
+
+*calc_exposure4_improved.py* and *calc_exposure4_improved_plot.py* <br>
+`getcon2` Samples the exposure values from the exposure rasters. <br>
+`cal_exp2` Calculates the exposure of the agents. <br>
+`plotact2` Plots the line graphs of the agents diurnal exposure. <br>
+
+*model_functions4_improved.py* <br>
+`schedule_general_shop_h` Schedule function for a grocery shopping trip from home. <br>
+`schedule_general_shop_r` Schedule function for grocery shopping on the way home. <br>
+`schedule_general_bus` Schedule function for bus travel. <br>
+`schedule_general_bus_shop_h` Schedule function for bus travel and a grocery shopping trip from home. <br>
+`travelmean_bus`
 
 
 ## Authors
