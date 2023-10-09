@@ -453,7 +453,6 @@ def get_busstops(busstops, home, destination):
     return home_bus, des_bus
 
 
-# People who go shopping leave an hour earlier for work (8 instead of 9)
 # Similar to schedule_general_wo but for going shopping from home location
 def schedule_general_shop_h(duration, s_duration, travelmean, s_travelmean, filedir, free_duration=1,
                             name="work_shop_h_sport", save_csv=True, time_interval=0.017):
@@ -536,7 +535,6 @@ def schedule_general_shop_h(duration, s_duration, travelmean, s_travelmean, file
     return schedule
 
 
-# People who go shopping leave an hour earlier for work (8 instead of 9)
 # Similar to schedule_general_wo but for going shopping on route from work to home
 def schedule_general_shop_r(duration, travelmean, filedir, free_duration=1,
                             name="work_shop_r_sport", save_csv=True, time_interval=0.017):
