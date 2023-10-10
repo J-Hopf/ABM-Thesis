@@ -36,7 +36,14 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 `input_bus_stops` Imports bus stops from a CSV file into a usable DataFrame format. <br>
 `input_shops` Imports grocery shops from a CSV file into a usable DataFrame format. <br>
 `get_busstops` Gets closest bus stops to the home and destination location. <br>
-
+`travelmean_bus` Chooses mode of travel with bus travel. <br>
+`distance_eucl` Calculates Euclidean distance between two points. <br>
+`testpoint` Quick validity test for output point in Utrecht. <br>
+`get_shop` Returns one of the k nearest shop locations to the input points. <br>
+`get_bufferradius` Returns buffer values. <br>
+`checkroutebuffer` Calculates the shop locations inside a buffer. <br>
+`check_in_extend` Checks if the point locations are inside the concentration raster. <br>
+ 
 ## Adapted Python functions
 *streamline_osmnx_4_improved.py* <br>
 `generate_activity_all` Chooses and generates activity schedules. <br>
@@ -51,8 +58,8 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 `schedule_general_shop_r` Schedule function for grocery shopping on the way home. <br>
 `schedule_general_bus` Schedule function for bus travel. <br>
 `schedule_general_bus_shop_h` Schedule function for bus travel and a grocery shopping trip from home. <br>
-`travelmean_bus`
-
+`getroute_2` Calculates route. <br>
+`getroute_shop` Calculates route to shop locations. <br>
 
 ## Authors
 Original model by [Meng Lu](https://github.com/mengluchu/agentmodel). <br>
