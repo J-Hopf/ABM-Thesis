@@ -30,7 +30,7 @@ import random
 import time
 
 random.seed(10)
-os.chdir("core")
+
 
 filedir = "C:/Users/Jan/PycharmProjects/Thesis2/"
 results_dir = f"{filedir}results1/r1_improved/"  # use same folder as streamline_osmnx
