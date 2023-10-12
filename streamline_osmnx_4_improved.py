@@ -18,7 +18,7 @@ import scipy.stats
 import networkx as nx
 from shapely.geometry import Point, shape, LineString
 
-os.chdir("core")
+
 
 ##############
 #  please enter the directory, and specify a directory for saving your files
