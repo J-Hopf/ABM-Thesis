@@ -344,7 +344,7 @@ print(f"It took {(end - start)/60:.1f} minutes to complete 1/2.\n")
 # plotting...
 
 # Specify which agents are plotted
-iteration = 31
+iteration = rangestart
 start_number = 20
 
 # Exposure per activity
