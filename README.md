@@ -22,7 +22,7 @@ To calculate exposure of agents:
 8. Run *streamline_osmnx_4_improved.py* -> output: activity schedules 
 9. Check folder names in *calc_exposure4_improved.py*  [ `filedir` ]
 10. Install necessary libraries
-11. Specify same `rangestart` and `rangeend` as in *streamline_osmnx_4_improved.py*
+11. Specify same `rangestart` and `rangeend` in *calc_exposure4_improved.py* as in *streamline_osmnx_4_improved.py*
 12. Run *calc_exposure4_improved.py* -> output: exposure data + exemplary plot of two agents
 
 To plot exposure of specific agents:
