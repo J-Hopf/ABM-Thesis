@@ -25,7 +25,7 @@ from shapely.geometry import Point, shape, LineString
 ################
 
 filedir = "C:/Users/Jan/PycharmProjects/Thesis2/"  # directory
-savedir0 = "C:/Users/Jan/PycharmProjects/Thesis2/results1/r1_improved/"  # save your results
+savedir0 = f"{filedir}results1/r1_improved/"  # save your results
 
 # change values also in calc_exposure
 rangestart = 30
