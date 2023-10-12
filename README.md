@@ -20,11 +20,11 @@ To calculate exposure of agents:
 6. Install necessary libraries + `scikit-learn`
 7. Specify number of iterations [number of iterations = `rangeend` - `rangestart` ] <br>
    (I use rangestart = 30 and rangeend = 41 which leads to 11 iterations as the last number is not used)
-9. Run *streamline_osmnx_4_improved.py* -> output: activity schedules 
+9. Run *streamline_osmnx_4_improved.py*  ->  output: activity schedules 
 10. Check folder in variable `filedir` in *calc_exposure4_improved.py*
 11. Install necessary libraries
 12. Specify same `rangestart` and `rangeend` in *calc_exposure4_improved.py* as in *streamline_osmnx_4_improved.py*
-13. Run *calc_exposure4_improved.py* -> output: exposure data + exemplary plot of two agents
+13. Run *calc_exposure4_improved.py*  ->  output: exposure data + exemplary plot of two agents
 
 To plot exposure of specific agents:
 1. Check folder `filedir` in *calc_exposure4_improved_plot.py*
