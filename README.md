@@ -72,4 +72,4 @@ Original model by [Meng Lu](https://github.com/mengluchu/agentmodel). <br>
 Improved with flexible schedules to add bus travel and grocery shopping by [Jan Hopfer](https://github.com/J-Hopf).
 
 ## License
-ABM-Thesis is available under the MIT license. See [LICENSE](https://github.com/J-Hopf/ABM-Thesis/edit/main/README.md) file for more info.
+ABM-Thesis is available under the MIT license. See [LICENSE](https://github.com/J-Hopf/ABM-Thesis/edit/main/LICENSE) file for more info.
