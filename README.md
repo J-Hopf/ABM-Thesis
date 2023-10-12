@@ -18,11 +18,12 @@ To calculate exposure of agents:
 4. Open programs with an IDE of your choice
 5. Check folder names in *streamline_osmnx_4_improved.py* [ `filedir` ]
 6. Install necessary libraries
-7. Specify number of iterations [number of iterations = `rageend` - `rangestart` ] 
+7. Specify number of iterations [number of iterations = `rangeend` - `rangestart` ] 
 8. Run *streamline_osmnx_4_improved.py* -> output: activity schedules 
 9. Check folder names in *calc_exposure4_improved.py*  [ `filedir` ]
 10. Install necessary libraries
-11. Run *calc_exposure4_improved.py* -> output: exposure data + exemplary plot of two agents
+11. Specify same `rangestart` and `rangeend` as in *streamline_osmnx_4_improved.py*
+12. Run *calc_exposure4_improved.py* -> output: exposure data + exemplary plot of two agents
 
 To plot exposure of specific agents:
 1. Check folder names in *calc_exposure4_improved_plot.py*
