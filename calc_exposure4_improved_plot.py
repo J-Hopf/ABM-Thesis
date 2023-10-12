@@ -13,7 +13,7 @@ from shapely.geometry import Point
 from matplotlib import pyplot as plt
 import osmnx as ox
 
-os.chdir("core")
+
 
 filedir = "C:/Users/Jan/PycharmProjects/Thesis2/"
 results_dir = f"{filedir}results1/r1_improved/"  # Use same folder as streamline_osmnx and calc_exposure4_improved
