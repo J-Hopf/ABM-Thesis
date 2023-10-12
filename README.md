@@ -6,12 +6,16 @@ Code for a study that aims to improve an agent-based model (ABM) which quantifys
 ## How to use it
 To calculate exposure of agents:
 1. Download files and input data
-2. Open programs with an IDE of your choice
-3. Check folder names in *streamline_osmnx_4_improved.py*
-4. Specify number of iterations
-5. Run *streamline_osmnx_4_improved.py* -> output: activity schedules
-6. Check folder names in *calc_exposure4_improved.py*
-7. Run *calc_exposure4_improved.py* -> output: exposure data + exemplary plot of two agents
+2. Export input data into working directory
+3. Create folder `/results1/r1_improved/` in working directory
+4. Open programs with an IDE of your choice
+5. Check folder names in *streamline_osmnx_4_improved.py* [ `filedir` ]
+6. Install necessary libraries
+7. Specify number of iterations [number of iterations = `rageend` - `rangestart` ] 
+8. Run *streamline_osmnx_4_improved.py* -> output: activity schedules 
+9. Check folder names in *calc_exposure4_improved.py*  [ `filedir` ]
+10. Install necessary libraries
+11. Run *calc_exposure4_improved.py* -> output: exposure data + exemplary plot of two agents
 
 To plot exposure of specific agents:
 1. Check folder names in *calc_exposure4_improved_plot.py*
