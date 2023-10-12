@@ -8,25 +8,26 @@ The files are stored here: https://1drv.ms/f/s!AhrgTI5gv_meiCL65MDP39LPVifD?e=yH
 
 *input* is the folder for all input data files. <br>
 *results1* is the standard folder to save the results. <br>
-*r1_improved* inside *results1* is an exemplary folder name to save the results of an individul simulation run. <br>
+*r1_improved* inside *results1* is an exemplary folder name to save the results of an individul simulation run with multiple iterations. <br>
 
 ## How to use it
 To calculate exposure of agents:
-1. Download files and input data
-2. Export input data into working directory
-3. Create folder `/results1/r1_improved/` in working directory
-4. Open programs with an IDE of your choice
-5. Check folder names in *streamline_osmnx_4_improved.py* [ `filedir` ]
-6. Install necessary libraries
-7. Specify number of iterations [number of iterations = `rangeend` - `rangestart` ] 
-8. Run *streamline_osmnx_4_improved.py* -> output: activity schedules 
-9. Check folder names in *calc_exposure4_improved.py*  [ `filedir` ]
-10. Install necessary libraries
-11. Specify same `rangestart` and `rangeend` in *calc_exposure4_improved.py* as in *streamline_osmnx_4_improved.py*
-12. Run *calc_exposure4_improved.py* -> output: exposure data + exemplary plot of two agents
+1. Download Python programs and input data
+2. Open programs with an IDE of your choice
+3. Export input data into working directory
+4. Create folder `/results1/r1_improved` in working directory
+5. Check folder in variable `filedir` in *streamline_osmnx_4_improved.py*
+6. Install necessary libraries + `scikit-learn`
+7. Specify number of iterations [number of iterations = `rangeend` - `rangestart` ] <br>
+   (I use rangestart = 30 and rangeend = 41 which leads to 11 iterations as the last number is not used)
+9. Run *streamline_osmnx_4_improved.py* -> output: activity schedules 
+10. Check folder in variable `filedir` in *calc_exposure4_improved.py*
+11. Install necessary libraries
+12. Specify same `rangestart` and `rangeend` in *calc_exposure4_improved.py* as in *streamline_osmnx_4_improved.py*
+13. Run *calc_exposure4_improved.py* -> output: exposure data + exemplary plot of two agents
 
 To plot exposure of specific agents:
-1. Check folder names in *calc_exposure4_improved_plot.py*
+1. Check folder `filedir` in *calc_exposure4_improved_plot.py*
 2. Specify which agents of which iteration to plot
 3. Run *calc_exposure4_improved_plot.py* -> output: plot for specified agents
 
@@ -69,3 +70,6 @@ To plot exposure of specific agents:
 ## Authors
 Original model by [Meng Lu](https://github.com/mengluchu/agentmodel). <br>
 Improved with flexible schedules to add bus travel and grocery shopping by [Jan Hopfer](https://github.com/J-Hopf).
+
+## License
+ABM-Thesis is available under the MIT license. See [LICENSE](https://github.com/J-Hopf/ABM-Thesis/edit/main/README.md) file for more info.
